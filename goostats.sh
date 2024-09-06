@@ -4,3 +4,4 @@ fname=$1
 echo "working with the file: ${fname}"
 echo "welcome to Nell's stats script"
 # compute the min/max/range of value in the file 
+max=$(cat ${fname} | sort | tail -1)
